@@ -14,11 +14,12 @@ app.locals.title = 'Ryan Adams Albums';
 app.locals.albums = ryanData
 
 app.get('/', (request, response) => {
+  console.log(app.locals.albums)
   const ryanAdamsAlbums = app.locals.albums
   if (!ryanAdamsAlbums) {
     return response.sendStatus(404)
   }
-  response.status(200).json(ryanAdamsAlbums)
+  return response.status(200).json(ryanAdamsAlbums)
 })
 
 app.listen(app.get("port"), () => {
