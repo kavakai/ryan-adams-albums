@@ -1,9 +1,9 @@
 
-const ryanData = require('./data')
 const express = require('express');
 const app = express();
 const cors = require('cors');
 const bodyParser = require('body-parser')
+const ryanData = require('./data');
 
 app.use(express.json());
 app.use(cors());
