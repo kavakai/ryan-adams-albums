@@ -226,7 +226,7 @@ const ryanData = {
     },
     {
       id: 4,
-      releaseDate: "11/04,2003",
+      releaseDate: "11/04/2003",
       title: "Rock N Roll",
       image: "https://upload.wikimedia.org/wikipedia/en/9/94/Ryan_Adams_Rock_N_Roll.jpg",
       description: "Rock N Roll is the fourth studio album by Ryan Adams, released on November 4th, 2003. The album features the hit single \"So Alive\", and includes guest appearances by Adams's then girlfriend, actress Parker Posey, former Hole and Smashing Pumpkins bass player Melissa Auf der Maur, and Green Day's Billie Joe Armstrong. Adams describes the album as \"the most rock thing I have ever done,\" and notes that in spite of the album's mixed reception, recording it was \"fun as fuck.\" The album was recorded in two weeks at Stratosphere Sound, guitarist James Iha's studio in Chelsea, Manhattan, New York.",
