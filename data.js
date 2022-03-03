@@ -98,7 +98,7 @@ const ryanData = {
       title: "Gold",
       image: "https://upload.wikimedia.org/wikipedia/en/b/bc/Ryan_Adams_Gold.jpg",
       description: "Gold is the second studio album by Ryan Adams, released September 25, 2001. The album remains Adams' best-selling album, certifying Gold in the UK and going on to sell 364,000 copies in the US and 812,000 worldwide. Adams noted that \"with Gold, I was trying to prove something to myself. I wanted to invent a modern classic.\" The album includes \"When the Stars Go Blue\", which has been covered by artists such as The Corrs, Bono, Tyler Hilton, Bethany Joy Galeotti, and Tim McGraw.",
-      track: [
+      tracks: [
         {
           title: "(Argument with David Rawlings Concerning Morrissey)\" (An argument regarding the Morrissey track \"Suedehead\".)",
           length: "0:37"
