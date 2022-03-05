@@ -21,6 +21,20 @@ app.get('/', (request, response) => {
   return response.status(200).json(ryanAdamsAlbums)
 })
 
+app.get('/:id', (request, response) => {
+  const { id } = request.params;
+  const { albums } = app.locals.albums;
+  
+  const albumToVIew = albums.find(album => album.id === parseInt(id));
+
+  if (!albumToVIew) {
+    return response.status(404).json({
+      message: `No found album with id of #${id}.`
+    })
+  }
+  return response.status(200).json(albumToVIew)
+});
+
 app.listen(app.get("port"), () => {
   console.log(
     `${app.locals.title} is running on http://localhost:${app.get("port")}.`
